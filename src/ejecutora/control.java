@@ -20,12 +20,12 @@ public class control {
        
         System.out.println("Probando el partido");
         PartidosFutbol partidosfutbol = new PartidosFutbol();
-        Partido p1 = new Partido("U. Catolica","U de Shile",1,1);
+        Partido p1 = new Partido("U. Catolica","U de Shile",(int) (Math.random() * 10),(int) (Math.random() * 10));
         partidosfutbol.agregar(p1);
         
         
-        partidosfutbol.agregar(new Partido("colo-colo","Ranges",1,3));
-        partidosfutbol.agregar(new Partido("evertono","brazil",6,3));
+        partidosfutbol.agregar(new Partido("colo-colo","Ranges",(int) (Math.random() * 10),(int) (Math.random() * 10)));
+        partidosfutbol.agregar(new Partido("evertono","brazil",(int) (Math.random() * 10),(int) (Math.random() * 10)));
         
         partidosfutbol.agregar(p1);
         partidosfutbol.listar();
