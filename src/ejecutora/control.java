@@ -5,18 +5,25 @@ import java.util.Iterator;
 import java.util.Set;
 import modelo.Estudiante;
 import modelo.Estudiantes;
+import modelo.Partido;
+import modelo.PartidosFutbol;
 public class control {
     public static void main(String[] args) {
+        /*
       System.out.println("Colecciones SET");
       Estudiantes curso = new Estudiantes();
       curso.agregar(new Estudiante("19474665-2","luis",18));
       System.out.println("recorriendo Hash");
-      
-      
-      
       curso.listar();
         
+       */ 
         
+        System.out.println("Probando el partido");
+        PartidosFutbol partidosfutbol = new PartidosFutbol();
+        
+        Partido p1 = new Partido("U. Catolica","U de Shile",1,1);
+  
+        partidosfutbol.agregar(p1);
         
         
         
