@@ -34,5 +34,7 @@ public class PartidosFutbol {
              "| goles equipo visita: "+p.getGolesvisitantes());
         }
     }
-    
+    public boolean eliminar (Partido p){
+       return alpartidoFutbol.remove(p);
+    }
 }

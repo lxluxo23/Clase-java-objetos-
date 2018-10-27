@@ -23,7 +23,8 @@ public class control {
         Partido p1 = new Partido("U. Catolica","U de Shile",1,1);
         partidosfutbol.agregar(p1);
         
-        partidosfutbol.agregar(new Partido("colo-colo","Ranges",6,3));
+        
+        partidosfutbol.agregar(new Partido("colo-colo","Ranges",1,3));
         partidosfutbol.agregar(new Partido("evertono","brazil",6,3));
         
         partidosfutbol.agregar(p1);
@@ -31,7 +32,16 @@ public class control {
         
         System.out.println("el arraylist tiene:" +partidosfutbol.contar()+" partidos");
         
+        // eliminando elemento en ArrayList
         
+        if(partidosfutbol.eliminar(p1)){
+            System.out.println("el partido fue eliminado");
+        }
+        else {
+            System.out.println("Error al intentar eliminar");
+        }
+         partidosfutbol.listar();
+         System.out.println("el arraylist tiene:" +partidosfutbol.contar()+" partidos");
         
     }
     
