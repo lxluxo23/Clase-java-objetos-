@@ -23,8 +23,12 @@ public class PartidosFutbol {
     }
     
     public void listar(){
-        for(Partido e : alpartidoFutbol){
-            System.out.println("hola  :" +e.getNombre()+"  tu edad es  "+e.getEdad());
+        for(Partido p : alpartidoFutbol){
+            System.out.println(
+             "equipo local: "+p.getEquipolocal()+
+             "|equipo visita: "+p.getEquipovisitante()+
+             "| Goles equipo local: "+p.getGoleslocal()+
+             "| goles equipo visita: "+p.getGolesvisitantes());
         }
     }
     
