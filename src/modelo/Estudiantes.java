@@ -19,8 +19,8 @@ public class Estudiantes {
     }
     
     public void listar(){
-        for (Estudiante e: hsEstudiantes){
-            System.out.println("");
+        for(Estudiante e : hsEstudiantes){
+            System.out.println("Alumno :" +e.getNombre()+" : "+e.getEdad());
         }
     }
     
