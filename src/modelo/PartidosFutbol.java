@@ -21,6 +21,9 @@ public class PartidosFutbol {
         alpartidoFutbol.add(p);
         
     }
+    public int contar(){
+        return alpartidoFutbol.size();
+    }
     
     public void listar(){
         for(Partido p : alpartidoFutbol){

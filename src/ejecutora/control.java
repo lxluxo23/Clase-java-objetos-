@@ -29,6 +29,9 @@ public class control {
         partidosfutbol.agregar(p1);
         partidosfutbol.listar();
         
+        System.out.println("el arraylist tiene:" +partidosfutbol.contar()+" partidos");
+        
+        
         
     }
     
