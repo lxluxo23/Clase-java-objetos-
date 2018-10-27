@@ -27,6 +27,7 @@ public class control {
         partidosfutbol.agregar(new Partido("evertono","brazil",6,3));
         
         partidosfutbol.agregar(p1);
+        partidosfutbol.listar();
         
         
     }
