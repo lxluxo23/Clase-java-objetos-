@@ -20,7 +20,7 @@ public class Estudiantes {
     
     public void listar(){
         for(Estudiante e : hsEstudiantes){
-            System.out.println("Alumno :" +e.getNombre()+" : "+e.getEdad());
+            System.out.println("hola  :" +e.getNombre()+"  tu edad es  "+e.getEdad());
         }
     }
     
