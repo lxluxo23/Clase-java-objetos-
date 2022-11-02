@@ -9,14 +9,14 @@ import modelo.Partido;
 import modelo.PartidosFutbol;
 public class control {
     public static void main(String[] args) {
-        /*
+        
       System.out.println("Colecciones SET");
       Estudiantes curso = new Estudiantes();
       curso.agregar(new Estudiante("19474665-2","luis",18));
       System.out.println("recorriendo Hash");
       curso.listar();
         
-       */ 
+        
        
         System.out.println("Probando el partido");
         PartidosFutbol partidosfutbol = new PartidosFutbol();

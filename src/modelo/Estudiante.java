@@ -2,9 +2,9 @@
 package modelo;
 
 public class Estudiante {
-    private String rut;
-    private String nombre;
-    private int edad;
+    private final String rut;
+    private final String nombre;
+    private final int edad;
     //datos  a solicitar en el ingreso
 
     public String getRut() {

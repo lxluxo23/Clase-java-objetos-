@@ -2,18 +2,16 @@
 package modelo;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 
 public class PartidosFutbol {
     
-     private List<Partido> alpartidoFutbol;
+     private final List<Partido> alpartidoFutbol;
 
     public PartidosFutbol() {
         
-        alpartidoFutbol = new ArrayList<Partido>();
+        alpartidoFutbol = new ArrayList<>();
         
         
     }

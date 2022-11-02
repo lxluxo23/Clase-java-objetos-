@@ -5,11 +5,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Estudiantes {
-    private Set<Estudiante> hsEstudiantes;
+    private final Set<Estudiante> hsEstudiantes;
 
     public Estudiantes() {
         
-        hsEstudiantes = new HashSet<Estudiante>();
+        hsEstudiantes = new HashSet<>();
         
         
     }
